@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .logoutbtn{
+    margin-top: -11px;
+    background: red;
+    color: white;
+  }
+  .nav {
+    height: 50px;
+    background-color: slategray;
+    font-family: 'Arial', sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav2 {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  .nav2 li {
+    margin-top: 14px;
+  }
+  
+  .nav2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav2 a:hover {
+    background-color: #495057;
+  }
+  
+  #productlink {
+    color: coral; /* Change the color for the specific link */
+  }
+  

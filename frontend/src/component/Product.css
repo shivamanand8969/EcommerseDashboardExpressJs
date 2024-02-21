@@ -1,0 +1,87 @@
+.mindivheight{
+    min-height: 100vh;
+    background-color: slategrey;
+}
+
+.productlist{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    border: 2px white solid;
+    padding: 2px;
+    width: 100%;
+    color: white;
+    font-size: x-large;
+    border-collapse: collapse;
+}
+
+.productlistdiv{
+    
+    background-color: slategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.productlist li{
+    text-align: left;
+}
+input[type='text']{
+    width: 400px;
+    height: 35px;
+    border: 1px solid slateblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.deletebtn{
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+table{
+    background-color: rgb(43, 47, 51);
+    color: white;
+    border: 1px solid white;
+    width: 98vw;
+}
+th{
+    width: 200px;
+    font-size: xx-large;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+thead{
+    border: 1px solid white;
+}
+td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+}
+button{
+    padding: 10px;
+    margin-inline: 10px;
+    border-radius: 10px;
+}
+.deleteb{
+    background-color: red;
+    color: white;
+}
+.updatebtn{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px inset;
+    background-color: rgb(6, 148, 6);
+    color: white;
+    border-radius: 10px;
+    font-size: small;
+}

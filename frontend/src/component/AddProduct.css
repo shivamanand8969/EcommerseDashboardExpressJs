@@ -1,0 +1,37 @@
+.add-product-box{
+   min-height: 75vh;
+   background-color:slategrey;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+}
+.input-box-add{
+    border-radius: 10px;
+    border: 2px white solid;
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+   padding: 29px;
+
+}
+.input-box-add input{
+    height: 25px;
+    width: 400px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+.input-box-add button{
+    height: 35px;
+    background-color: green;
+    color: white;
+    border:2px white solid;
+    border-radius: 10px;
+}
+.errmsg{
+    color: red;
+    margin-right: 30px;
+}
